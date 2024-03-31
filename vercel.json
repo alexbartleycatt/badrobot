@@ -10,8 +10,7 @@
   "rewrites": [
     {
       "source": "/(.*)",
-      "destination": "/$1.html",
-      "check": false
+      "destination": "/$1.html"
     }
   ]
 }
