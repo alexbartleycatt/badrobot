@@ -37,6 +37,11 @@ body {
   align-items: flex-start;
 }
 
+.contentdiv.lessmargin {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 .styledheading {
   text-align: center;
   font-family: Crimson Pro, sans-serif;
