@@ -100,7 +100,7 @@ body {
 
 .styledtextfield {
   color: #343334;
-  border: 2px solid rgba(52, 51, 52, .5);
+  border: 2px solid #34333480;
   border-radius: 6px;
   margin-bottom: 0;
   padding: 20px;
@@ -109,7 +109,7 @@ body {
 
 .styledbutton {
   color: #fa4539;
-  background-color: rgba(56, 152, 236, 0);
+  background-color: #3898ec00;
   border: 2px solid #fa4539;
   border-radius: 20px;
   padding: 10px 25px;
@@ -124,7 +124,7 @@ body {
 .styledbutton:active {
   color: #fff;
   background-color: #fa4539;
-  border-color: rgba(250, 69, 57, 0);
+  border-color: #fa453900;
 }
 
 .styledtext {
