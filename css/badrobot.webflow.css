@@ -1,7 +1,7 @@
 :root {
+  --red: #fa4539;
   --white: white;
   --black: black;
-  --red: #fa4539;
 }
 
 body {
@@ -82,7 +82,7 @@ body {
   color: #333334;
   text-align: center;
   font-family: Crimson Pro, sans-serif;
-  font-size: 32px;
+  font-size: 30px;
   font-weight: 400;
   line-height: 100%;
   text-decoration: none;
@@ -92,16 +92,20 @@ body {
   text-decoration: underline;
 }
 
+.styledlink.inline {
+  font-family: Crimson Text, sans-serif;
+}
+
+.styledlink.inline.red {
+  color: var(--red);
+}
+
 .linksdiv {
   grid-column-gap: 50px;
   grid-row-gap: 50px;
   justify-content: center;
   align-items: center;
   display: flex;
-}
-
-.linksdiv.hidden {
-  display: none;
 }
 
 .styledform {
