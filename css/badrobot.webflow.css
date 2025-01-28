@@ -16,6 +16,10 @@ body {
   width: 100px;
 }
 
+.styledimage.thankyou {
+  max-width: 200px;
+}
+
 .contentdiv {
   grid-column-gap: 50px;
   grid-row-gap: 50px;
