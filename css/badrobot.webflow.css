@@ -59,6 +59,12 @@ body {
   margin-top: 70px;
 }
 
+.contentdiv.thankyou {
+  grid-column-gap: 25px;
+  grid-row-gap: 25px;
+  margin-top: 170px;
+}
+
 .styledheading {
   text-align: center;
   font-family: Crimson Pro, sans-serif;
