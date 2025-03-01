@@ -1,9 +1,69 @@
 :root {
   --red: #fa4539;
-  --deep-red: #df2727;
+  --deep-red: #de2727;
   --off-white: #fffaf1;
   --black: black;
   --white: white;
+}
+
+.w-checkbox {
+  margin-bottom: 5px;
+  padding-left: 20px;
+  display: block;
+}
+
+.w-checkbox:before {
+  content: " ";
+  grid-area: 1 / 1 / 2 / 2;
+  display: table;
+}
+
+.w-checkbox:after {
+  content: " ";
+  clear: both;
+  grid-area: 1 / 1 / 2 / 2;
+  display: table;
+}
+
+.w-checkbox-input {
+  float: left;
+  margin: 4px 0 0 -20px;
+  line-height: normal;
+}
+
+.w-checkbox-input--inputType-custom {
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  width: 12px;
+  height: 12px;
+}
+
+.w-checkbox-input--inputType-custom.w--redirected-checked {
+  background-color: #3898ec;
+  background-image: url('https://d3e54v103j8qbb.cloudfront.net/static/custom-checkbox-checkmark.589d534424.svg');
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-color: #3898ec;
+}
+
+.w-checkbox-input--inputType-custom.w--redirected-focus {
+  box-shadow: 0 0 3px 1px #3898ec;
+}
+
+.w-layout-layout {
+  grid-row-gap: 20px;
+  grid-column-gap: 20px;
+  grid-auto-columns: 1fr;
+  justify-content: center;
+  padding: 20px;
+}
+
+.w-layout-cell {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
 }
 
 body {
@@ -149,6 +209,7 @@ body {
   background-color: #3898ec00;
   border-radius: 20px;
   padding: 10px 25px;
+  font-family: Inconsolata, monospace;
   font-size: 20px;
 }
 
@@ -239,6 +300,14 @@ body {
   padding-top: 5px;
 }
 
+.styledlabel {
+  font-size: 20px;
+}
+
+.quick-stack {
+  grid-column-gap: 40px;
+}
+
 @media screen and (max-width: 991px) {
   .styledimage {
     max-width: 80%;
@@ -265,6 +334,10 @@ body {
 
   .styledp, .styledlink, .styledtext {
     font-size: 25px;
+  }
+
+  .quick-stack {
+    grid-row-gap: 40px;
   }
 }
 
@@ -312,6 +385,18 @@ body {
     flex-flow: column;
     padding-left: 20px;
     padding-right: 20px;
+  }
+}
+
+#w-node-bcab6767-ee9e-81b0-d0f9-ebd37e8c2f0e-805b6e49 {
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr;
+}
+
+@media screen and (max-width: 767px) {
+  #w-node-bcab6767-ee9e-81b0-d0f9-ebd37e8c2f0e-805b6e49 {
+    grid-template-rows: auto;
+    grid-template-columns: 1fr;
   }
 }
 
