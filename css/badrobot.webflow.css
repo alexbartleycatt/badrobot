@@ -311,6 +311,12 @@ body {
 .cell {
   justify-content: center;
   align-items: center;
+  padding: 20px;
+}
+
+.cell-2, .cell-3 {
+  justify-content: flex-start;
+  align-items: center;
 }
 
 @media screen and (max-width: 991px) {
