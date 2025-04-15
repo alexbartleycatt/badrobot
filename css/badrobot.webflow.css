@@ -150,6 +150,10 @@ body {
   display: flex;
 }
 
+.styledsection.hidden {
+  display: none;
+}
+
 .styledlink {
   color: #333334;
   text-align: center;
@@ -222,6 +226,10 @@ body {
   color: #fff;
   background-color: #fa4539;
   border-color: #fa453900;
+}
+
+.styledbutton.topmargin {
+  margin-top: 40px;
 }
 
 .styledtext {
