@@ -144,6 +144,10 @@ body {
   line-height: 130%;
 }
 
+.styledp.centered {
+  text-align: center;
+}
+
 .styledsection {
   justify-content: center;
   align-items: center;
