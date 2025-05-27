@@ -351,6 +351,10 @@ body {
   display: flex;
 }
 
+.listdiv.hidden {
+  display: none;
+}
+
 .styledbutton-2 {
   color: #de2727;
   background-color: #3898ec00;
